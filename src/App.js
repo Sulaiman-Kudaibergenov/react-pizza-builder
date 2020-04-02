@@ -10,6 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        Здесь был Сулайман
         <BrowserRouter>
           <Layout>
             <Route path="/" component={PizzaBuilder} exact />
